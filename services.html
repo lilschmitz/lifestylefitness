@@ -15,6 +15,9 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+<!--calendly-->
+   <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+   <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
     </head>
     <body id="page-top">
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
@@ -33,12 +36,12 @@
             </div>
         </nav>
         <!-- Masthead-->
-        <header class="masthead">
+        <header class="masthead" href="#services">
             <div class="container d-flex h-100 align-items-center">
                 <div class="mx-auto text-center">
                     <h1 class="mx-auto my-0 text-uppercase">Services</h1>
                     <h2 class="text-white-50 mx-auto mt-2 mb-5">Get started now with our programs</h2>
-                    <a class="btn btn-primary js-scroll-trigger" href="#services">Inquire now</a>
+                    <a class="btn btn-primary js-scroll-trigger" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/kathrinlschmitz/check-in-with-mentor'});return false;">Inquire now</a>
                 </div>
             </div>
         </header>
@@ -95,7 +98,11 @@
             </div>
     </div>
     </div>
-                              
+                       <div class="col-lg-12 text-center">
+            <p><a href="#services" class="btn btn-circle page-scroll">
+            <i class="fa fa-angle-double-up animated"></i></a></p><br>
+            </div>
+       
                 </section>
                   <!-- Footer-->
         <footer class="footer bg-black small text-center text-white-50"><div class="container">Project 1 2021</div></footer>
