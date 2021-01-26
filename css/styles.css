@@ -10212,8 +10212,12 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
+<<<<<<< HEAD
    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/photos/manandwoman.jpeg");
   background-position: center;
+=======
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/photos/manandwoman.jpeg");
+>>>>>>> 814ce6c8c8e609118f81d262d40ba8145de3e26c
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
