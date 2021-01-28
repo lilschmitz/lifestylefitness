@@ -1,10 +1,9 @@
-!# Project 1 lifestylefitness
+# PROJECT 1 lifestylefitness
 
 This project is a front end development exercise that utilizes a bootstrap template that encourages rapid development and clean, pragmatic design". Applying minor embedding of code from other application providers like youtube and Calendly functionality has been added without having to create a full back end integration, which would ultimately be the outlook for the future development of this site. 
 
 
-# Site Outline 
-
+# SITE OUTLINE 
 
 ## LANDING PAGE
 
@@ -18,10 +17,10 @@ Is a big hero/masthead section with a 'Get started' button that leads to the fir
 
 ### Carousel Section underneath the Welcome Section. 
 This section is displaying two services and both are linking to the 'Services' page. 
+
 ### About Section
 
 This section is outlining the overall mission of the company.
-
 
 
 ### Transformations Section 
@@ -34,13 +33,13 @@ In the contact section are a subscribe-to-mailing sign up and the usual contact 
 ### Footer 
 Mainly refers to the project and in a normal company scenario it would provide legal entity references and copyright information. 
 
-## Further Pages 
+## FURTHER PAGES
 
-## My Story Page
+### My Story Page
 This is a summary of the fictitious company owner and personal trainer John Gramlich. Outlined with a timeline and photos of his transformation.
 
 
-## Services Page
+### Services Page
 
 The services page shows two offerings that can be selected with a specific quantity and once the 'Request Now' button is pressed it leads onto the 'Thank you' page. The 'Inquire now' button allows for a pop up integration of Calendly which would allow for a booking for a chat with John Gramlich. 
 
@@ -51,10 +50,10 @@ Is a summary thank you statement with a embedded button at the bottom of the pag
 
 
 
-# Built || Technology 
+# BUILT || TECHNOLOGY
 
 
-# Front End 
+## Front End 
  
  Bootstrap "Grayscale" Template used for project.
 
@@ -63,11 +62,9 @@ Link to template here:
 
 
 
-## Project Structure 
+## PROJECT STRUCTURE
 
-
-#### lifestylefitness
-
+### lifestylefitness
 
 - About (index.html)
 - My Story (mystory.html)
@@ -75,16 +72,11 @@ Link to template here:
 - Services (services.html)
 - Contact (section on index.html0
 
-###
 
-#### README.md
+### README.md
 => explanation of the project, its structure, its technology, how to deploy it etc
-#### requirements.txt
-=> outline of all technology used as pre-req for deployment
 
-
-
-## Technology Stack 
+## TECHNOLOGY STACK
 
 ### [Bootrstap](https://getbootstrap.com/docs/4.0/getting-started/introduction/) 
 A front-end framework allowing to dynamically code html pages.
@@ -107,22 +99,21 @@ Is a font and icon toolkit based on CSS and LESS.
 PaaS a platform as a service and integrative hosting site.
 
 
-# Deployment
+# DEPLOYMENT
 
 This site is hosted here using Github Pages [Github Page](https://lilschmitz.github.io/lifestylefitness/)
 
 
-# Authors 
+# AUTHORS
 
 Kathrin Schmitz based on the provided material by the Code Institute Dublin Ireland
 
-# License 
+# LICENSE
 
 This project is licensed under the MIT License
 
 
-
-# Further Development 
+# FURTHER DEVELOPMENT
 
  There should be a registration process and a profile  page of a registered user. This should then allow for scheduling, purchasing and display of booked services. Furthermore the services page should lead to a payment integrated purchase flow and booking process. Additionally it would be ideal to have a community like forum in a form of a blog to allow for registered users to interact. 
   
