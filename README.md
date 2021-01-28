@@ -103,9 +103,14 @@ Kathrin Schmitz based on the provided material by the Code Institute Dublin Irel
 
 # LICENSE
 
-This project is licensed under the MIT License
+This project is licensed under the MIT License. See referenced template links for bootstrap as to current license year. 
 
 
 # FURTHER DEVELOPMENT
 
- There should be a registration process and a profile  page of a registered user. This should then allow for scheduling, purchasing and display of booked services. Furthermore the services page should lead to a payment integrated purchase flow and booking process. Additionally it would be ideal to have a community like forum in a form of a blog to allow for registered users to interac
+ There should be a registration process and a profile  page of a registered user. This should then allow for scheduling, purchasing and display of booked services. Furthermore the services page should lead to a payment integrated purchase flow and booking process. Additionally it would be ideal to have a community like forum in a form of a blog to allow for registered users to interact.
+
+
+# TESTING 
+
+Using the standard W3 validators to check html and css. 
