@@ -1,4 +1,4 @@
-# PROJECT 1 lifestylefitness
+# PROJECT 1 'lifestylefitness'
 
 This project is a front end development exercise that utilizes a bootstrap template that encourages rapid development and clean, pragmatic design". Applying minor embedding of code from other application providers like youtube and Calendly functionality has been added without having to create a full back end integration, which would ultimately be the outlook for the future development of this site. 
 
@@ -22,7 +22,6 @@ This section is displaying two services and both are linking to the 'Services' p
 
 This section is outlining the overall mission of the company.
 
-
 ### Transformations Section 
 Here the company showcases the embedded YouTube Transformation story of John Gramlich and two stories of fictitious clients. 
 
@@ -38,29 +37,17 @@ Mainly refers to the project and in a normal company scenario it would provide l
 ### My Story Page
 This is a summary of the fictitious company owner and personal trainer John Gramlich. Outlined with a timeline and photos of his transformation.
 
-
 ### Services Page
 
 The services page shows two offerings that can be selected with a specific quantity and once the 'Request Now' button is pressed it leads onto the 'Thank you' page. The 'Inquire now' button allows for a pop up integration of Calendly which would allow for a booking for a chat with John Gramlich. 
 
-
-#### Thank you Page 
+### Thank you Page 
 Is a summary thank you statement with a embedded button at the bottom of the page, that refers to an integration of Calendly which would allow for a booking for a chat with John Gramlich. 
 
 
 
 
 # BUILT || TECHNOLOGY
-
-
-## Front End 
- 
- Bootstrap "Grayscale" Template used for project.
-
-Link to template here: 
-[Grayscale](https://startbootstrap.com/theme/grayscale)
-
-
 
 ## PROJECT STRUCTURE
 
@@ -77,6 +64,12 @@ Link to template here:
 => explanation of the project, its structure, its technology, how to deploy it etc
 
 ## TECHNOLOGY STACK
+
+## Front End Bootstrap "Grayscale" Template 
+
+Link to template here: 
+[Grayscale](https://startbootstrap.com/theme/grayscale)
+
 
 ### [Bootrstap](https://getbootstrap.com/docs/4.0/getting-started/introduction/) 
 A front-end framework allowing to dynamically code html pages.
