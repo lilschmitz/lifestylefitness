@@ -1,45 +1,128 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+!# Project 1 lifestylefitness
 
-Welcome Kathrin Schmitz,
+This project is a front end development exercise that utilizes a bootstrap template that encourages rapid development and clean, pragmatic design". Applying minor embedding of code from other application providers like youtube and Calendly functionality has been added without having to create a full back end integration, which would ultimately be the outlook for the future development of this site. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
 
-## Gitpod Reminders
+# Site Outline 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+## LANDING PAGE
 
-A blue button should appear to click: *Make Public*,
+### Navbar 
 
-Another blue button should appear to click: *Open Browser*.
+Contains 'About', 'My Story', 'Transformations', 'Services', 'Contact'. Of these three are sections  ('About', 'Transformations' and 'Contact') and two are linked subpages ('My Story' and 'Services'). 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Welcome Section 
+Is a big hero/masthead section with a 'Get started' button that leads to the first section, the 'About' section. 
 
-A blue button should appear to click: *Make Public*,
 
-Another blue button should appear to click: *Open Browser*.
+### Carousel Section underneath the Welcome Section. 
+This section is displaying two services and both are linking to the 'Services' page. 
+### About Section
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+This section is outlining the overall mission of the company.
 
-## Updates Since The Instructional Video
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Transformations Section 
+Here the company showcases the embedded YouTube Transformation story of John Gramlich and two stories of fictitious clients. 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Contact Section 
+In the contact section are a subscribe-to-mailing sign up and the usual contact details for the fictitious company. 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Footer 
+Mainly refers to the project and in a normal company scenario it would provide legal entity references and copyright information. 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Further Pages 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## My Story Page
+This is a summary of the fictitious company owner and personal trainer John Gramlich. Outlined with a timeline and photos of his transformation.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
---------
+## Services Page
 
-Happy coding!
+The services page shows two offerings that can be selected with a specific quantity and once the 'Request Now' button is pressed it leads onto the 'Thank you' page. The 'Inquire now' button allows for a pop up integration of Calendly which would allow for a booking for a chat with John Gramlich. 
+
+
+#### Thank you Page 
+Is a summary thank you statement with a embedded button at the bottom of the page, that refers to an integration of Calendly which would allow for a booking for a chat with John Gramlich. 
+
+
+
+
+# Built || Technology 
+
+
+# Front End 
+ 
+ Bootstrap "Grayscale" Template used for project.
+
+Link to template here: 
+[Grayscale](https://startbootstrap.com/theme/grayscale)
+
+
+
+## Project Structure 
+
+
+#### lifestylefitness
+
+
+- About (index.html)
+- My Story (mystory.html)
+- Transformations (section on index.html)
+- Services (services.html)
+- Contact (section on index.html0
+
+###
+
+#### README.md
+=> explanation of the project, its structure, its technology, how to deploy it etc
+#### requirements.txt
+=> outline of all technology used as pre-req for deployment
+
+
+
+## Technology Stack 
+
+### [Bootrstap](https://getbootstrap.com/docs/4.0/getting-started/introduction/) 
+A front-end framework allowing to dynamically code html pages.
+
+
+### [Javascript](https://www.javascript.com/) 
+An object-oriented computer programming language commonly used to create interactive effects within web browsers.
+
+### [HTML](https://www.w3schools.com/html/) 
+Hypertext Markup Language, a standardized system for tagging text files to achieve font, colour, graphic, and hyperlink effects on World Wide Web pages.
+
+### [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) 
+Cascading Style Sheets - a language for describing the presentation of Web pages, including colors, layout, and fonts.
+
+### [Fontawesome](http://fontawesome.io/)
+Is a font and icon toolkit based on CSS and LESS. 
+ 
+
+### [Github](https://www.github.com) 
+PaaS a platform as a service and integrative hosting site.
+
+
+# Deployment
+
+This site is hosted here using Github Pages [Github Page](https://lilschmitz.github.io/lifestylefitness/)
+
+
+# Authors 
+
+Kathrin Schmitz based on the provided material by the Code Institute Dublin Ireland
+
+# License 
+
+This project is licensed under the MIT License
+
+
+
+# Further Development 
+
+ There should be a registration process and a profile  page of a registered user. This should then allow for scheduling, purchasing and display of booked services. Furthermore the services page should lead to a payment integrated purchase flow and booking process. Additionally it would be ideal to have a community like forum in a form of a blog to allow for registered users to interact. 
+  
